@@ -1,0 +1,20 @@
+{
+  "name": "rhmap-stats",
+  "version": "1.0.0",
+  "description": "RedHat Mobile Application wrapper for stats-influxdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keyang Xiang <keyang.xiang@gmail.com>",
+  "contributors": [
+    {
+      "name": "Keyang Xiang",
+      "email": "keyang.xiang@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "stats-influxdb": "^1.0.5"
+  }
+}
