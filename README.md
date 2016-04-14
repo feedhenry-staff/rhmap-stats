@@ -24,7 +24,11 @@ stat.monit.start(session,"pidusage",1000); //monitor this process mem and cpu us
 stat.monit.start(session,"disk",3600*1000); //monitor vm disk usage (/) every hour
 
 ```
-
+To stop the monitoring
+```js
+stat.monit.stop(session,"cpu");
+stat.monit.stop(session,"mem");
+```
 
 ## Simple Endpoint counter
 ```js

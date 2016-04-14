@@ -1,6 +1,6 @@
 {
   "name": "rhmap-stats",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "RedHat Mobile Application wrapper for stats-influxdb",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "stats-influxdb": "^1.0.5"
+    "stats-influxdb": "^1.0.6"
   }
 }
