@@ -4,17 +4,32 @@
   "description": "RedHat Mobile Application wrapper for stats-influxdb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 85 --functions 100 --lines 100",
+    "coverage": "env NODE_PATH=. istanbul cover -x *.test.js _mocha test/",
+    "unit": "env NODE_PATH=. mocha test/",
+    "test": "npm run coverage && npm run check-coverage"
   },
   "author": "Keyang Xiang <keyang.xiang@gmail.com>",
   "contributors": [
     {
       "name": "Keyang Xiang",
       "email": "keyang.xiang@gmail.com"
+    },
+    {
+      "name": "Evan Shortiss",
+      "email": "evanshortiss@gmail.com"
     }
   ],
   "license": "MIT",
   "dependencies": {
-    "stats-influxdb": "^1.0.7"
+    "stats-influxdb": "^1.0.7",
+    "env-var": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.4",
+    "sinon": "^1.17.3"
   }
 }
