@@ -1,5 +1,5 @@
 # About
-Red Hat Mobile Application Platform (RHMAP) stats is a node.js library which enables RHMAP cloud application to create useful and virtualised statistic data.
+Red Hat Mobile Application Platform (RHMAP) stats is a node.js library which enables RHMAP cloud application to create visualised system / custom statistic data.
 
 # Requirement
 This module itself does not do data persistent. The module connects to Influxdb which is a time series based database through UDP based line protocol.
@@ -12,8 +12,7 @@ To use this module, following components need to be pre-installed:
 Red Hat mobile consulting team has a pre-built docker-compose file which automatically install the requirements.
 
 # Performance
-The module is built with performance in mind. It uses UDP as underlying protocol and optional callbacks.
-The purpose is to keep the impact on system resource as minimum as possible.
+The module is built with performance in mind. It uses UDP as underlying protocol and optional callbacks to keep the impact on system resource as minimum as possible.
 
 # Installation
 The module is merely a node.js npm package.
