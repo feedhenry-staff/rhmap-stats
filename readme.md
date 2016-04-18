@@ -160,11 +160,11 @@ To build the query,
 * Choose a `label` of counter
 * Then choose an appropriate aggregation algorithm according to needs .
 
-![choose_disk](https://raw.githubusercontent.com/feedhenry-staff/rhmap-stats/doc/img/use_env_img1.png)
+![choose_disk](https://raw.githubusercontent.com/feedhenry-staff/rhmap-stats/doc/img/use_counter_img1.png)
 
 A table stats will look as following:
 
-![choose_disk](https://raw.githubusercontent.com/feedhenry-staff/rhmap-stats/doc/img/use_env_img2.png)
+![choose_disk](https://raw.githubusercontent.com/feedhenry-staff/rhmap-stats/doc/img/use_counter_img2.png)
 
 ## Custom stats: time elapsed
 This module also provides a way to measure time elapsed during an operation.
