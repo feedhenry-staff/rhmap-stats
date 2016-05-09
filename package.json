@@ -1,6 +1,6 @@
 {
   "name": "rhmap-stats",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "RedHat Mobile Application wrapper for stats-influxdb",
   "main": "index.js",
   "scripts": {
@@ -18,11 +18,14 @@
     {
       "name": "Evan Shortiss",
       "email": "evanshortiss@gmail.com"
+    }, {
+      "name": "Alan Moran",
+      "email": "alan@alanmoran.me"
     }
   ],
   "license": "MIT",
   "dependencies": {
-    "stats-influxdb": "^1.0.7",
+    "stats-influxdb": "^2.0.0",
     "env-var": "^1.0.0"
   },
   "devDependencies": {
