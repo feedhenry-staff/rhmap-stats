@@ -49,9 +49,9 @@ route.use(function(req,res,next){
 ## Time elpase statistics
 ```js
 // monitor database response
-session.time("list_user_collection");
+var timer = session.time("list_user_collection");
 userCollection.find({},function(err,userList){
-  session.timeEnd("list_user_collection");
+  session.timeEnd(timer);
 });
 ```
 
