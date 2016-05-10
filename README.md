@@ -1,5 +1,5 @@
 # RedHat Mobile Application system monitoring and stats lib
-This lib is tighly related to RHMAP and can only work with RHMAP.
+This lib is tightly related to RHMAP and can only work with RHMAP.
 
 It is based on `stats-influxdb` lib
 
@@ -46,7 +46,7 @@ route.use(function(req,res,next){
 });
 ```
 
-## Time elpase statistics
+## Time elapse statistics
 ```js
 // monitor database response
 var timer = session.time("list_user_collection");
@@ -55,7 +55,7 @@ userCollection.find({},function(err,userList){
 });
 ```
 
-## Time elpase statistics with parameters
+## Time elapse statistics with parameters
 ```js
 // monitor database response
 var timer = session.time("list_user_collection", ["user=test"]);
