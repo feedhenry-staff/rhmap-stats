@@ -55,6 +55,15 @@ userCollection.find({},function(err,userList){
 });
 ```
 
+## Time elpase statistics with parameters
+```js
+// monitor database response
+var timer = session.time("list_user_collection", ["user=test"]);
+userCollection.find({},function(err,userList){
+  session.timeEnd(timer);
+});
+```
+
 #License
 ```
 MIT
